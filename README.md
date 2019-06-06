@@ -1,2 +1,2 @@
 # website
-Personal website portfolio
+This is my personal website portfolio as an aspiring junior web developer.
