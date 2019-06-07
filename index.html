@@ -15,7 +15,7 @@
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f9dbf8">
-            <a class="navbar-brand" href="/">Victoria Lee</a>
+            <a class="navbar-brand" href="#">Victoria Lee</a>
             <div class="collapse navbar-collapse  my-2 my-lg-0" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
@@ -27,7 +27,7 @@
         </nav>
     </header>
 
-    <!-- Box in the center -->
+    <!-- Introduction-->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Welcome to my website</h1>
@@ -36,62 +36,83 @@
     </div>
 
     <!-- About Me  -->
-    <h1 id="aboutMe">About Me</h1>
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <img src="me.jpg" class="profile-picture" />
-            </div>
-            <div class="col">
-                <h5>Description</h5>
-                <hr>
-                <p>I am a graduate of the Full-Stack Web Development Programme from NEXT Academy, Malaysia.</p>
-                <p>Currently, I am making a career switch and trying to enter the tech scene by starting off as a junior
-                    web devloper.</p>
-                <h5>Background</h5>
-                <p>I have a Degree and Master's in Physiotherapy. I am also a licensed physical therapist, lifeguard,
-                    and swimming instructor. </p>
+    <section id="aboutMe">
+        <div class="container">
+            <h1>About Me</h1>
+            <div class="row">
+                <div class="col-4">
+                    <img src="me.jpg" class="profile-picture" />
+                </div>
+                <div class="col">
+                    <h5>Description</h5>
+                    <hr>
+                    <p>I am a graduate of the Full-Stack Web Development Programme from NEXT Academy, Malaysia.</p>
+                    <p>Currently, I am making a career switch and trying to enter the tech scene by starting off as a
+                        junior
+                        web devloper.</p>
+                    <h5>Background</h5>
+                    <p>I have a Degree and Master's in Physiotherapy. I am also a licensed physical therapist,
+                        lifeguard,
+                        and swimming instructor. </p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Projects -->
-    <h1 id="projects">Projects</h1>
-    <h5>These are some projects that I have built.</h5>
-    <div class="card-deck">
-        <div class="card">
-            <img src="helikopter.jpg" class="card-img-top" alt="helikopter">
-            <div class="card-body">
-                <h5 class="card-title">Helikopter</h5>
-                <p class="card-text">This is a final project for NEXT Academy. It is a Chrome Extension which censors
-                    sensitive content on the internet.</p>
-                <p>It blurs images, replaces words with ***, and disables links.</p>
-                <p>Built using HTML, Css, and JavaScript for the front-end and used Python and Flask for the back-end.
-                </p>
-                <p>Won Best Pitch and Best App award during the NEXT Academy Pitch Night.</p>
-                <a href="https://helikopter.herokuapp.com/" target="_blank">Visit the app here.</a>
+    <section id="projects">
+        <div class="container">
+            <h1>Projects</h1>
+            <h5>These are some projects that I have built.</h5>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="helikopter.jpg" class="card-img-top" alt="helikopter">
+                    <div class="card-body">
+                        <h5 class="card-title">Helikopter</h5>
+                        <p class="card-text">This is a final project for NEXT Academy. It is a Chrome Extension which
+                            censors
+                            sensitive content on the internet.</p>
+                        <p>It blurs images, replaces words with ***, and disables links.</p>
+                        <p>Built using HTML, Css, and JavaScript for the front-end and used Python and Flask for the
+                            back-end.
+                        </p>
+                        <p>Won Best Pitch and Best App award during the NEXT Academy Pitch Night.</p>
+                        <a href="https://helikopter.herokuapp.com/" target="_blank">Visit the app here.</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="nextagram.jpg" class="card-img-top" alt="nextagram">
+                    <div class="card-body">
+                        <h5 class="card-title">Nextagram</h5>
+                        <p class="card-text">Simple clone of Instagram.</p>
+                        <p>Built using Python and Flask.</p>
+                        <p>Google OAuth, Braintree, and SendGrid was implemented in this app.</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card">
-            <img src="nextagram.jpg" class="card-img-top" alt="nextagram">
-            <div class="card-body">
-                <h5 class="card-title">Nextagram</h5>
-                <p class="card-text">Simple clone of Instagram.</p>
-                <p>Built using Python and Flask.</p>
-                <p>Google OAuth, Braintree, and SendGrid was implemented in this app.</p>
-            </div>
-        </div>
-    </div>
+    </section>
 
     <!-- Contact Me -->
-    <h1 id="contactMe">Contact Me</h1>
-    <p>You may contact me at: </p>
-    <ul>
-        <li>Email: vickyloon91@gmail.com</li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/victoria-lee-a80264187/" target="_blank">Victoria Lee</a>
-        </li>
-        <li>GitHub: <a href="https://github.com/VictoriaLee91" target="_blank">VictoriaLee91</a></li>
-    </ul>
+    <section id="contactMe">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <div class="card border-info mb-3" style="max-width: 18rem;">
+                <div class="card-header">You may contact me at: </div>
+                <div class="card-body text-info">
+                    <ul>
+                        <li>Email: vickyloon91@gmail.com</li>
+                        <li>LinkedIn: <a href="https://www.linkedin.com/in/victoria-lee-a80264187/"
+                                target="_blank">Victoria
+                                Lee</a>
+                        </li>
+                        <li>GitHub: <a href="https://github.com/VictoriaLee91" target="_blank">VictoriaLee91</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <section>
         <footer class="footer footer-expand-lg text-dark text-center" style="background-color: #f9dbf8">
