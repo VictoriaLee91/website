@@ -1,10 +1,15 @@
 body {
     padding-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
 }
 
 .container { 
     margin-top: 40px;
     margin-bottom: 40px;
+    border: 2px solid #f9dbf8;
+    background-color: white;
+    padding: 60px 60px;
 }
 
 .navbar {
@@ -13,13 +18,25 @@ body {
     z-index: 9999;
     width: 100%;
     height: 60px;
-}
-.profile-picture {
-    width: 150px;
-    height: 170px;
-    border-radius: 150px;
+    background-color: #f9dbf8;
 }
 
-.card {
-    width: 20%;
+.jumbotron{
+    width:100%;
+    border: 2px solid #f9dbf8;
+}
+.profile-picture {
+    max-width: 100%;
+    height: auto;
+    border-radius: 250px;
+    border: 2px solid #f9dbf8;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #f9dbf8;  
 }
