@@ -15,15 +15,31 @@
 <body>
     <header>
         <!-- Navbar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Victoria Lee</a>
-            <div class="collapse navbar-collapse  my-2 my-lg-0" id="navbarNavAltMarkup">
-                <div class="navbar-nav mr-auto">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link active" href="#aboutMe">About Me</a>
-                    <a class="nav-item nav-link active" href="#projects">Projects</a>
-                    <a class="nav-item nav-link active" href="#contactMe">Contact Me</a>
-                </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#technicalSkills">Technical Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactMe">Contact Me</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -31,8 +47,8 @@
     <!-- Introduction-->
     <div class="jumbotron jumbotron-fluid">
         <div class="container-fluid">
-            <h2 class="display-4">My name is Victoria Lee, and I am a junior web developer</h2>
-            <p class="lead">Scroll to learn more about me.</p>
+            <h2 class="display-4">Hi, I'm Victoria. I'm a junior web developer.</h2>
+            <p class="lead">Scroll down to learn more about me :)</p>
         </div>
     </div>
 
@@ -47,12 +63,17 @@
                 </div>
                 <div class="col-md-8 mb-4">
                     <h5><strong>Description</strong></h5>
-                    <p>I am a graduate of the Full-Stack Web Development bootcamp from NEXT Academy, Malaysia.</p>
                     <p>Currently, I am making a career switch and trying to enter the tech industry by starting off as a
                         junior
                         web developer.</p>
+                    <p>I am a graduate of the Full-Stack Web Development bootcamp from NEXT Academy, Malaysia.</p>
+                    <p>What got me into coding was the job flexibility, the challenge of solving problems using
+                        algorithms, and the ability to just build something amazing using some lines of code. </p>
+                    <p>I aim to continue learning more languages and improve my coding skills through a potential web
+                        development job.</p>
+                    </br>
                     <h5><strong>Background</strong></h5>
-                    <p>I have a Degree and Master's in Physiotherapy. I am also a licensed physical therapist,
+                    <p>I have a Degree and a Master's in Physiotherapy. I am also a licensed physical therapist,
                         lifeguard,
                         and swimming instructor. </p>
                 </div>
@@ -60,17 +81,44 @@
         </div>
     </section>
 
-    <!-- Projects -->
+    <!-- Languages -->
+    <section id="technicalSkills">
+        <div class="container shadow-lg">
+            <h1>Technical skills</h1>
+            <hr>
+            </br>
+
+            <span class="language">HTML</span>
+            <span class="language">CSS</span>
+            <span class="language">JavaScript</span>
+            <span class="language">React</span>
+            <span class="language">Python</span>
+            <span class="language">Flask</span>
+            <span class="language">Postgresql</span>
+            <span class="language">SQLite</span>
+
+            <div>
+                </br>
+                <p>I am currently improving my Python and React skills through online courses on Udemy.</p>
+                <p>During my free time, I plan to learn other frameworks and languages such as Django, Vue, Node.js,
+                    etc.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Projects, eventually change this into a carousel when there's more projects -->
     <section id="projects">
         <div class="container shadow-lg">
             <h1>Projects</h1>
             <hr>
-            <h5>These are some projects that I have built.</h5>
+            <h5>Here are some projects that I have built.</h5>
+            </br>
             <div class="card-deck">
                 <div class="card shadow-sm">
                     <img src="helikopter.jpg" class="card-img-top" alt="helikopter">
                     <div class="card-body">
-                        <h5 class="card-title">Helikopter</h5>
+                        <h5 class="card-title"><strong>Helikopter</strong></h5>
                         <p class="card-text">This is a final project for NEXT Academy. It is a Chrome Extension which
                             censors
                             sensitive content on the internet.</p>
@@ -85,7 +133,7 @@
                 <div class="card shadow-sm">
                     <img src="nextagram.jpg" class="card-img-top" alt="nextagram">
                     <div class="card-body">
-                        <h5 class="card-title">Nextagram</h5>
+                        <h5 class="card-title"><strong>Nextagram</strong></h5>
                         <p class="card-text">Simple clone of Instagram.</p>
                         <p>Built using Python and Flask.</p>
                         <p>Google OAuth, Braintree, and SendGrid was implemented in this app.</p>
@@ -102,7 +150,7 @@
             <hr>
             <p>You may contact me at:</p>
             <ul>
-                <li>Email: <a href="mailto:vickyloon91@gmail.com">vickyloon91@gmail.com</a></li>
+                <li>Email: <a href="mailto:vickyloon91@gmail.com" target="_blank">vickyloon91@gmail.com</a></li>
                 <li>LinkedIn: <a href="https://www.linkedin.com/in/victoria-lee-a80264187/" target="_blank">Victoria
                         Lee</a>
                 </li>
@@ -114,7 +162,7 @@
     <!-- Footer -->
     <section>
         <footer class="footer footer-expand-lg text-dark text-center">
-            Copyright Victoria Lee 2019
+            Copyright &#169; Victoria Lee 2019
         </footer>
     </section>
 
