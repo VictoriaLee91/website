@@ -13,17 +13,18 @@ body {
 }
 
 .navbar {
-    position: fixed;
     top:0;
     z-index: 9999;
     width: 100%;
-    height: 60px;
     background-color: #f9dbf8;
+    padding: 15px;
 }
 
 .jumbotron{
     width:100%;
+    padding: 60px 60px;
     border: 2px solid #f9dbf8;
+    background-color: white;
 }
 .profile-picture {
     max-width: 100%;
@@ -32,6 +33,9 @@ body {
     border: 2px solid #f9dbf8;
 }
 
+.card{
+    border: 1px solid #f9dbf8; 
+}
 .card-img-top {
     width: 100%;
     height: auto;
