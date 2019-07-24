@@ -52,6 +52,9 @@ ul {
     margin-right: 10px;
     margin-bottom: 10px;
 }
+.language:hover {
+    background-color: #f9dbf8;
+}
 .card{
     border: 2px solid #f9dbf8; 
     background-color:#333;
